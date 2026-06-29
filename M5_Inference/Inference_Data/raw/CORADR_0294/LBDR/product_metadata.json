@@ -1,0 +1,73 @@
+{
+  "pds_version_id": "PDS3",
+  "data_set_id": "CO-V/E/J/S-RADAR-3-LBDR-V1.0",
+  "data_set_name": "CASSINI RADAR LONG BURST DATA RECORD",
+  "product_id": "LBDR_02_D294_V02",
+  "product_version_id": "02",
+  "producer_institution_name": "JET PROPULSION LABORATORY",
+  "producer_id": "JPL",
+  "instrument_host_name": "CASSINI ORBITER",
+  "instrument_host_id": "CO",
+  "instrument_name": "CASSINI RADAR",
+  "instrument_id": "RADAR",
+  "target_name": "TITAN",
+  "mission_name": "CASSINI-HUYGENS",
+  "start_time": "2017-254T20:36:14.565",
+  "stop_time": "2017-254T22:06:14.445",
+  "closest_approach_time": "2017-254T19:04:49.942",
+  "trigger_time": "2017-254T15:21:00.556",
+  "epoch_time": "2017-254T15:16:03.000",
+  "spacecraft_clock_start_count": 1883857560,
+  "spacecraft_clock_stop_count": 1883862960,
+  "product_creation_time": "2018-060T20:29:01.000",
+  "software_version_id": "V1.0",
+  "description": "CASSINI RADAR LONG BURST DATA RECORD FOR THE TITAN S101 PASS WITH CLOSEST APPROACH TIME 2017-254T19:04:49.942 TRIGGER TIME 2017-254T15:21:00.556 EPOCH TIME 2017-254T15:16:03.000.",
+  "processing_history_text": "NONE",
+  "pds_volume": "CORADR_0294",
+  "pds_relative_path": "/data/cassini/cassini_orbiter/CORADR_0294/DATA/LBDR/LBDR_02_D294_V02.LBL",
+  "pds_prod_url": "https://planetarydata.jpl.nasa.gov/img/pds/prod?q=OFSN+%3D+/data/cassini/cassini_orbiter//CORADR_0294/DATA/LBDR/LBDR_02_D294_V02.LBL+AND+RT+%3D+PDS_LABEL",
+  "volume_url": "https://pds-imaging.jpl.nasa.gov/data/cassini/cassini_orbiter/CORADR_0294/",
+  "binary_table": {
+    "file_name": "LBDR_02_D294_V02.TAB",
+    "record_type": "FIXED_LENGTH",
+    "record_bytes": 132344,
+    "file_records": 14515,
+    "label_records": 1,
+    "table_rows": 14514,
+    "table_columns": 236,
+    "row_bytes": 132344,
+    "interchange_format": "BINARY",
+    "structure_format": "SBDR.FMT",
+    "required_storage_bytes": 1920973160,
+    "compressed_file": "LBDR_02_D294_V02.ZIP",
+    "encoding_type": "ZIP"
+  },
+  "echo_data_column": {
+    "name": "ECHO_DATA",
+    "data_type": "PC_REAL",
+    "start_byte": 1273,
+    "items": 32768,
+    "item_bytes": 4,
+    "description": "32,768 real samples of RADAR echo return (antenna voltage DN); convert to engineering units for full processing; store statistics only in derived layer"
+  },
+  "local_ingestion": {
+    "ingested_at": "2026-06-10T00:00:00Z",
+    "ingested_by": "manual_move_from_Agentic_Lab/Inference_Data",
+    "local_path": "M5_Inference/Inference_Data/raw/CORADR_0294/LBDR/",
+    "raw_files_expected": [
+      "LBDR_02_D294_V02.LBL",
+      "LBDR_02_D294_V02.ZIP",
+      "LBDR_02_D294_V02.TAB"
+    ],
+    "raw_files_present": [
+      "LBDR_02_D294_V02.ZIP",
+      "LBDR_02_D294_V02.TAB"
+    ],
+    "raw_files_missing": [
+      "LBDR_02_D294_V02.LBL"
+    ],
+    "tab_size_bytes": 1920973160,
+    "zip_test": "OK",
+    "status": "downloaded"
+  }
+}

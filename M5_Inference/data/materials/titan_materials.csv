@@ -1,0 +1,5 @@
+material_class,dielectric_min,dielectric_max,density_kg_m3,source
+water_ice,3.0,3.2,920.0,UCSC Titan Materials DB
+hydrocarbon_liquid_methane,1.65,1.85,450.0,UCSC Titan Materials DB
+hydrocarbon_liquid_mixed,1.75,2.1,520.0,UCSC Titan Materials DB + Hayes 2016
+tholin,2.2,2.7,800.0,UCSC Titan Materials DB

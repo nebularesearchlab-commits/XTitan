@@ -1,0 +1,2 @@
+product_id,pds_volume,product_type,target_name,pass_id,start_time_utc,stop_time_utc,burst_count,raw_status,derived_path,pds_prod_url,use_case,notes
+LBDR_02_D294_V02,CORADR_0294,LBDR,TITAN,S101,2017-254T20:36:14.565,2017-254T22:06:14.445,14514,downloaded,derived/CORADR_0294/LBDR_02_D294_V02/,https://planetarydata.jpl.nasa.gov/img/pds/prod?q=OFSN+%3D+/data/cassini/cassini_orbiter//CORADR_0294/DATA/LBDR/LBDR_02_D294_V02.LBL+AND+RT+%3D+PDS_LABEL,forward_calib,Titan S101 pass; LBDR includes SBDR science + 32768-sample ECHO_DATA per burst; ~1.92 GB uncompressed TAB

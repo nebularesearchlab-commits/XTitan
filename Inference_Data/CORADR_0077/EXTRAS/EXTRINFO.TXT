@@ -1,0 +1,33 @@
+PDS_VERSION_ID     = PDS3
+
+RECORD_TYPE        = STREAM
+OBJECT             = TEXT
+  NOTE             = "Description of the files in the EXTRAS directory"
+  PUBLICATION_DATE = 2006-12-21
+END_OBJECT         = TEXT
+END
+
+This file identifies and describes the function of each file in the
+EXTRAS directory.
+
+All Volumes
+-----------
+  EXTRINFO.TXT
+    This file.
+
+  CRT_yyy_Vnn.TAB
+    Cassini Radar Transition file for this observation, where
+      yyy = 3-digit radar observation counter
+      nn  = 2-digit version number
+      yyy and nn are left-padded with zeroes.
+
+    The CRT file documents the times of radar mode transitions.
+    The file has been generated from the SBDR file in the DATA/SBDR
+    directory of this volume.  For a detailed description of the CRT
+    file format, refer to the Volume Software Interface Specification
+    for Cassini Radar Instrument Team Data Products, which is located
+    on this volume as file VOLSIS.PDF in the DOCUMENT directory.
+
+
+Volume 77, Version 01 (Distant Titan Radiometer)
+------------------------------------------------

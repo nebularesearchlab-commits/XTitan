@@ -1,0 +1,34 @@
+version: "1.0"
+project: ExploreTitan
+default_product: LBDR_02_D294_V02
+
+products:
+  - product_id: LBDR_02_D294_V02
+    pds_volume: CORADR_0294
+    product_type: LBDR
+    target_name: TITAN
+    pass_id: S101
+    catalog: catalog/products.csv
+    raw_dir: raw/CORADR_0294/LBDR
+    derived_dir: derived/CORADR_0294/LBDR_02_D294_V02
+    primary_table: bursts_inference.csv
+    pds_prod_url: https://planetarydata.jpl.nasa.gov/img/pds/prod?q=OFSN+%3D+/data/cassini/cassini_orbiter//CORADR_0294/DATA/LBDR/LBDR_02_D294_V02.LBL+AND+RT+%3D+PDS_LABEL
+
+simulation_bindings:
+  forward_model_calibration:
+    source: derived/CORADR_0294/LBDR_02_D294_V02/bursts_inference.csv
+    columns:
+      backscatter: sigma0_corrected
+      incidence: act_incidence_angle_deg
+      radiometry: antenna_temp_k
+      time: utc_time
+      burst_key: burst_id
+  agent_geometry:
+    source: derived/CORADR_0294/LBDR_02_D294_V02/geometry.csv
+    columns:
+      latitude: sub_spacecraft_latitude_deg
+      longitude: sub_spacecraft_longitude_deg
+      altitude: spacecraft_altitude_km
+  sparsity_mask:
+    source: derived/CORADR_0294/LBDR_02_D294_V02/sparsity_mask_2d.npy
+    sidecar: derived/CORADR_0294/LBDR_02_D294_V02/sparsity_mask_2d.json

@@ -1,0 +1,50 @@
+PDS_VERSION_ID        = PDS3
+RECORD_TYPE           = UNDEFINED
+^PDF_DOCUMENT         = "VOLSIS.PDF"
+^HTML_DOCUMENT        = "VOLSIS.HTML"
+^CSS_DOCUMENT         = "VOLSIS.CSS"
+
+OBJECT                = PDF_DOCUMENT
+  DOCUMENT_NAME       = "Volume Software Interface Specification (SIS)
+                        for Cassini Radar Instrument Team Data Products"
+  PUBLICATION_DATE    = 2005-09-27
+  DOCUMENT_TOPIC_TYPE = "ARCHIVE VOLUME SIS"
+  INTERCHANGE_FORMAT  = BINARY
+  DOCUMENT_FORMAT     = "ADOBE PDF"
+  ENCODING_TYPE       = "PDF-ADOBE-1.1"
+  DESCRIPTION         = "This SIS describes the formats, contents, and
+                        generation of the media volumes for data produced
+                        by the Cassini Radar Instrument Team.  Products
+                        included in the archive are the Burst Ordered
+                        Data Products (BODP) and the Basic Image Data
+                        Records (BIDR)."
+END_OBJECT            = PDF_DOCUMENT
+
+OBJECT                = HTML_DOCUMENT
+  DOCUMENT_NAME       = "Volume Software Interface Specification (SIS)
+                        for Cassini Radar Instrument Team Data Products"
+  PUBLICATION_DATE    = 2005-09-27
+  DOCUMENT_TOPIC_TYPE = "ARCHIVE VOLUME SIS"
+  INTERCHANGE_FORMAT  = ASCII
+  DOCUMENT_FORMAT     = "HTML"
+  DESCRIPTION         = "This SIS describes the formats, contents, and
+                        generation of the media volumes for data produced
+                        by the Cassini Radar Instrument Team.  Products
+                        included in the archive are the Burst Ordered
+                        Data Products (BODP) and the Basic Image Data
+                        Records (BIDR)."
+END_OBJECT            = HTML_DOCUMENT
+
+OBJECT                = CSS_DOCUMENT
+  DOCUMENT_NAME       = "Volume Software Interface Specification (SIS)
+                        for Cassini Radar Instrument Team Data Products"
+  PUBLICATION_DATE    = 2005-09-27
+  DOCUMENT_TOPIC_TYPE = "ARCHIVE VOLUME SIS"
+  INTERCHANGE_FORMAT  = ASCII
+  DOCUMENT_FORMAT     = "CSS"
+  DESCRIPTION         = "This file is the Cascading Style Sheet for
+                         the HTML version of the Software Interface
+                         Specification."
+END_OBJECT            = CSS_DOCUMENT
+
+END

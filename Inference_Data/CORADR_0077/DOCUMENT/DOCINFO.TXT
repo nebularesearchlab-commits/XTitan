@@ -1,0 +1,79 @@
+PDS_VERSION_ID     = PDS3
+
+RECORD_TYPE        = STREAM
+OBJECT             = TEXT
+  NOTE             = "Description of the contents of the DOCUMENT
+                     directory"
+  PUBLICATION_DATE = 2005-05-09
+END_OBJECT       = TEXT
+END
+
+CONTENTS OF THE DOCUMENT DIRECTORY
+
+The DOCUMENT directory contains documentation and supplementary and ancillary
+information to assist in understanding and using the data products in this
+volume.
+
+DOCINFO.TXT
+  This file.  Identifies and describes the function of each file in or under
+  the DOCUMENT directory.
+
+BODPSIS.HTML
+  HTML version of the Burst Ordered Data Products (BODP) Software Interface
+  Specification.
+
+BODPSIS.PDF
+  PDF version of the Burst Ordered Data Products (BODP) Software Interface
+  Specification.
+
+BODPSIS.CSS
+  Cascading Style Sheet for the HTML version of the Burst Ordered Data
+  Products (BODP) Software Interface Specification.
+
+BODPSIS.LBL
+  Detached label file documenting BODPSIS.PDF, BODPSIS.HTML, and
+  BODPSIS.CSS.
+
+BODPSIS_SIGPAGE.GIF
+  GIF version of signature page of BODP SIS.
+
+BIDRSIS.HTML
+  HTML version of the Basic Image Data Record (BIDR) Software Interface
+  Specification.
+
+BIDRSIS.PDF
+  PDF version of the Basic Image Data Record (BIDR) Software Interface
+  Specification.
+
+BIDRSIS_FIG##.GIF
+  GIF versions of selected figures in BIDRSIS.HTML, where ## represents
+  a 2-digit number between 01 and 99.
+
+BIDRSIS_SIGPAGE.GIF
+  GIF version of signature page of BIDR SIS.
+
+BIDRSIS.CSS
+  Cascading Style Sheet for the HTML version of the Basic Image Data
+  Record (BIDR) Software Interface Specification.
+
+BIDRSIS.LBL
+  Detached label file documenting BIDRSIS.PDF, BIDRSIS.HTML, BIDRSIS.CSS,
+  and BIDRSIS_FIG##.GIF.
+
+VOLSIS.HTML
+  HTML version of the Volume Software Interface Specification for Cassini
+  Radar Instrument Team Data Products.
+
+VOLSIS.PDF
+  PDF version of the Volume Software Interface Specification for Cassini
+  Radar Instrument Team Data Products.
+
+VOLSIS.CSS
+  Cascading Style Sheet for the HTML version of the Volume Software
+  Interface Specification for Cassini Radar Instrument Team Data Products.
+
+VOLSIS.LBL
+  Detached label file documenting VOLSIS.PDF, VOLSIS.HTML, and VOLSIS.CSS.
+
+VOLSIS_SIGPAGE.GIF
+  GIF version of signature page of Volume SIS.

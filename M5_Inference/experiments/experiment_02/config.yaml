@@ -1,0 +1,11 @@
+env_path: data/environments/environment_001.csv
+materials_path: data/materials/titan_materials.csv
+comm_radius: 1.5
+preserve_top_k: 0.10
+max_iter: 50
+beta: 0.3
+tol: 0.001
+observed_fraction: 0.45
+noise_sigma: 0.05
+seed: 42
+seeds: [42, 84, 126]

@@ -1,0 +1,24 @@
+# Tier A + B — Python quick-read + USGS ISIS3 for Cassini RADAR processing
+# Create:  conda env create -f environment-planetary.yml
+# Activate: conda activate exploretitan-planetary
+# Then:     pip install -r requirements-planetary.txt
+
+name: exploretitan-planetary
+channels:
+  - usgs-isis
+  - conda-forge
+dependencies:
+  - python=3.9
+  - isis
+  - gdal
+  - numpy
+  - matplotlib
+  - pandas
+  - pyyaml
+  - networkx
+  - scipy
+  - seaborn
+  - pytest
+  - pip
+  - pip:
+      - pvl>=1.3

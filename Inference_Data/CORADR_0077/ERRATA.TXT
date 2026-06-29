@@ -1,0 +1,66 @@
+PDS_VERSION_ID     = PDS3
+
+RECORD_TYPE        = STREAM
+OBJECT             = TEXT
+  NOTE             = "Known errors and/or anomalies in the volumes"
+  PUBLICATION_DATE = 2006-12-21
+END_OBJECT         = TEXT
+END
+
+ERRORS AND/OR ANOMALIES IN THE CURRENT VOLUME
+
+Volume CORADR_0035, Version 98
+------------------------------
+
+1.  The Cassini Radar Transition file (EXTRAS/CRT_035_V01.TAB) contains
+no information about ScanStart and ScanEnd transitions.
+
+2.  In the volume index table (INDEX/INDEX.TAB), double quotes enclose
+all the date/time values.  Normally, PDS date/time values are not
+quoted, but quoting makes parsing easier for some applications.
+
+3.  The HTML documents in the DOCUMENT directory contain HTML character
+codes that, while all-ASCII, are not easily interpretable by someone
+who is reading the HTML documents as text documents.  For example,
+"&#945;" represents the lower-case Greek character "alpha" and is
+rendered as such in a web browser.  Equivalent and more legible character
+codes (e.g., "&#alpha;") are available as of the HTML 4.0 specification
+but cannot be used here, as PDS requires HTML documents to comply to the
+HTML 3.2 specification.
+
+4. Antenna temperature, brightness temperature, and receiver temperature are
+defined in Janssen, M. A., "An Introduction to the Passive Microwave Remote
+Sensing of Atmospheres," Chapter 1 in Atmospheric Remote Sensing by
+Microwave Radiometry, (M. Janssen, ed.), pp. 1-35, Wiley & Sons,
+New York (1993).  The archived value in the SBDR and LBDR files gives
+uncalibrated antenna temperature in units of Kelvin.
+It provides calibrated antenna temperature when multiplied by a dimensionless
+factor f.  The current best value for f is 0.926.  As this improves it will
+change and will likely become a function of time. This value applies also to
+all preceeding volumes.
+
+5. Ideally the calibrated antenna temperature is referenced to cold sky at
+2.7 K, although no guarantee is made that this zero-level accounting has been
+correctly made.  Also, the antenna temperature is not necessarily the
+brightness temperature seen in the main beam; e.g., there will be an offset
+if the sidelobes happen to fall on other than cold sky.  There are Cassegrain
+spillover sidelobes at around 12 degrees from the main beam, and possible
+primary spillover lobes in the back direction.  In particular, there is an
+offset to be expected and accounted for when an extended source like Titan
+or Saturn is observed from close distance.  System gain is the quantity that
+multiplies the raw sky counts to convert to the uncalibrated Kelvin scale.
+Receiver_temp is the receiver noise temperature Tr (comparison made at
+internal reference switch).   The receiver temperature plus the antenna
+temperature is equal to the total signal (raw counts times system gain).
+
+6. ant_temp_std is a measure of the rms uncertainty of Ta, and is only an
+estimation.  It is obtained as the standard deviation of Ta for three points,
+Ta(I-1), Ta(I), and Ta(I+1), and is a useful measure that identifies
+questionable data.  For example, it gets large when the beam is sweeping
+across a brightness discontinuity.
+
+ERRORS AND/OR ANOMALIES IN PREVIOUS VOLUMES
+
+Not Applicable
+
+

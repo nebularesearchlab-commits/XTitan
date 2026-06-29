@@ -1,0 +1,73 @@
+PDS_VERSION_ID        = PDS3
+RECORD_TYPE           = UNDEFINED
+^PDF_DOCUMENT         = "BIDRSIS.PDF"
+^HTML_DOCUMENT        = "BIDRSIS.HTML"
+^GIF_DOCUMENT         = { "BIDRSIS_FIG01.GIF",
+                          "BIDRSIS_FIG02.GIF",
+                          "BIDRSIS_FIG03.GIF",
+                          "BIDRSIS_FIG04.GIF",
+                          "BIDRSIS_FIG05.GIF",
+                          "BIDRSIS_FIG06.GIF",
+                          "BIDRSIS_FIG07.GIF",
+                          "BIDRSIS_FIG08.GIF",
+                          "BIDRSIS_FIG09.GIF",
+                          "BIDRSIS_FIG10.GIF",
+                          "BIDRSIS_FIG11.GIF" }
+^CSS_DOCUMENT         = "BIDRSIS.CSS"
+
+OBJECT                = PDF_DOCUMENT
+  DOCUMENT_NAME       = "Cassini Radar Basic Image Data Records
+                        Software Interface Specification"
+  PUBLICATION_DATE    = 2005-09-27
+  DOCUMENT_TOPIC_TYPE = "DATA PRODUCT SIS"
+  INTERCHANGE_FORMAT  = BINARY
+  DOCUMENT_FORMAT     = "ADOBE PDF"
+  ENCODING_TYPE       = "PDF-ADOBE-1.1"
+  DESCRIPTION         = "This Software Interface Specification (SIS)
+                        provides users of the Cassini Radar Basic Image
+                        Data Record data set with a detailed description
+                        of the products and a description of how they
+                        were generated.  BIDR data files are single-pass
+                        SAR image data which are calibrated and gridded."
+END_OBJECT            = PDF_DOCUMENT
+
+OBJECT                = HTML_DOCUMENT
+  DOCUMENT_NAME       = "Cassini Radar Basic Image Data Records
+                        Software Interface Specification"
+  PUBLICATION_DATE    = 2005-09-27
+  DOCUMENT_TOPIC_TYPE = "DATA PRODUCT SIS"
+  INTERCHANGE_FORMAT  = ASCII
+  DOCUMENT_FORMAT     = "HTML"
+  DESCRIPTION         = "This Software Interface Specification (SIS)
+                        provides users of the Cassini Radar Basic Image
+                        Data Record data set with a detailed description
+                        of the products and a description of how they
+                        were generated.  BIDR data files are single-pass
+                        SAR image data which are calibrated and gridded."
+END_OBJECT            = HTML_DOCUMENT
+
+OBJECT                = GIF_DOCUMENT
+  DOCUMENT_NAME       = "Cassini Radar Basic Image Data Records
+                        Software Interface Specification"
+  PUBLICATION_DATE    = 2005-09-27
+  DOCUMENT_TOPIC_TYPE = "DATA PRODUCT SIS"
+  INTERCHANGE_FORMAT  = BINARY
+  DOCUMENT_FORMAT     = "GIF"
+  ENCODING_TYPE       = "GIF89A"
+  DESCRIPTION         = "These images are embedded figures for the HTML
+                        version of the Software Interface Specification."
+END_OBJECT            = GIF_DOCUMENT
+
+OBJECT                = CSS_DOCUMENT
+  DOCUMENT_NAME       = "Cassini Radar Basic Image Data Records
+                        Software Interface Specification"
+  PUBLICATION_DATE    = 2005-09-27
+  DOCUMENT_TOPIC_TYPE = "DATA PRODUCT SIS"
+  INTERCHANGE_FORMAT  = ASCII
+  DOCUMENT_FORMAT     = "CSS"
+  DESCRIPTION         = "This file is the Cascading Style Sheet for the
+                         HTML version of the Software Interface
+                         Specification."
+END_OBJECT            = CSS_DOCUMENT
+
+END

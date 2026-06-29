@@ -1,0 +1,56 @@
+PDS_VERSION_ID        = PDS3
+RECORD_TYPE           = UNDEFINED
+^PDF_DOCUMENT         = "BODPSIS.PDF"
+^HTML_DOCUMENT        = "BODPSIS.HTML"
+^CSS_DOCUMENT         = "BODPSIS.CSS"
+
+OBJECT                = PDF_DOCUMENT
+  DOCUMENT_NAME       = "Cassini Radar Burst Ordered Data Products
+                        Software Interface Specification"
+  PUBLICATION_DATE    = 2005-09-27
+  DOCUMENT_TOPIC_TYPE = "DATA PRODUCT SIS"
+  INTERCHANGE_FORMAT  = BINARY
+  DOCUMENT_FORMAT     = "ADOBE PDF"
+  ENCODING_TYPE       = "PDF-ADOBE-1.1"
+  DESCRIPTION         = "This Software Interface Specification (SIS)
+                        provides users of the Cassini Radar Burst
+                        Ordered Data Products with a detailed
+                        description of the products and a description
+                        of how they were generated.  The products
+                        described in this SIS are the Short Burst Data
+                        Records (SBDR) product, the Long Burst Data
+                        Records (LBDR) product, and the Altimetry Burst
+                        Data Records (ABDR) product."
+END_OBJECT            = PDF_DOCUMENT
+
+OBJECT                = HTML_DOCUMENT
+  DOCUMENT_NAME       = "Cassini Radar Burst Ordered Data Products
+                        Software Interface Specification"
+  PUBLICATION_DATE    = 2005-09-27
+  DOCUMENT_TOPIC_TYPE = "DATA PRODUCT SIS"
+  INTERCHANGE_FORMAT  = ASCII
+  DOCUMENT_FORMAT     = "HTML"
+  DESCRIPTION         = "This Software Interface Specification (SIS)
+                        provides users of the Cassini Radar Burst
+                        Ordered Data Products with a detailed
+                        description of the products and a description
+                        of how they were generated.  The products
+                        described in this SIS are the Short Burst Data
+                        Records (SBDR) product, the Long Burst Data
+                        Records (LBDR) product, and the Altimetry Burst
+                        Data Records (ABDR) product."
+END_OBJECT            = HTML_DOCUMENT
+
+OBJECT                = CSS_DOCUMENT
+  DOCUMENT_NAME       = "Cassini Radar Burst Ordered Data Products
+                        Software Interface Specification"
+  PUBLICATION_DATE    = 2005-09-27
+  DOCUMENT_TOPIC_TYPE = "DATA PRODUCT SIS"
+  INTERCHANGE_FORMAT  = ASCII
+  DOCUMENT_FORMAT     = "CSS"
+  DESCRIPTION         = "This file is the Cascading Style Sheet for
+                         the HTML version of the Software Interface
+                         Specification."
+END_OBJECT            = CSS_DOCUMENT
+
+END
